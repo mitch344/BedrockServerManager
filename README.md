@@ -13,6 +13,7 @@ Before running the scripts, ensure the following dependencies are installed:
 - selenium: Install both as sudo and as user:
 - ```sudo apt-get -y install python3-selenium```
 - ```pip3 install selenium```
+- The commands below generally will already be installed from above but here they are just in case
 - chromium: Install using snap or your choice: ```sudo snap install chromium```
 - chromedriver: Install using apt: ```sudo apt-get -y install chromium-chromedriver```
 ## Installation
