@@ -9,16 +9,17 @@ Install the latest server software, statup the server on machine boot, check for
 ## Dependencies
 
 Before running the scripts, ensure the following dependencies are installed:
-- Ubuntu, python3, & pip3
+- Ubuntu Server, LTS, or Latest. (No Desktop Manager is required)
+- python3 & pip3
 - selenium: Install both as sudo and as user:
 - ```sudo apt-get -y install python3-selenium```
-- ```pip3 install selenium```
-- The commands below generally will already be installed from above but here they are just in case
-- chromium: Install using snap or your choice: ```sudo snap install chromium```
-- chromedriver: Install using apt: ```sudo apt-get -y install chromium-chromedriver```
+- ```pip3 install selenium  #no worries if you get a satified requirement message. Your all good and can ignore this step.```
+- The commands below generally will already be installed from above commands but, here they are just in case
+```sudo snap install chromium```
+```sudo apt-get -y install chromium-chromedriver```
 ## Installation
 
-Clone the BedrockServerManager to a fixed location on your filesystem. If you move it, you may encounter issues. Run all scripts from the root of the BedrockServerManager directory. Remember to manually backup your server software/worlds occasionally! Follow the steps below exactly and you should be good to go!
+Clone the BedrockServerManager to a fixed location on your filesystem. If you move it, you will encounter issues. Run all scripts from the root of the BedrockServerManager directory. Remember to manually backup your server software/worlds occasionally! Follow the steps below exactly and you should be good to go!
 
 1. ### Configure the Config File
 Modify the config.json, ensuring to include the file separator at the end of ServerPath. Duration is how often you want the server to check for an update.
@@ -69,6 +70,6 @@ Create the Version Check service.
 sudo python3 createVersionCheckService.py
 sudo reboot
 ```
-That's it! Feel free to play around with scripts and make them work for your application.
+That's it!
 
-Please checkout the wiki for updates and the overall status of the project.
+Checkout the github wiki for updates and more in depth docs for installation and features :)
