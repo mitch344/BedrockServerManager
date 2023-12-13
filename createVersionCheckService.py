@@ -16,7 +16,7 @@ Description=Version Check for MinecraftBedrockServerManager
 User={getpass.getuser()}
 WorkingDirectory={os.path.dirname(script_path)}
 ExecStart=/usr/bin/python3 {script_path}
-Restart=always
+Restart=no
 
 [Install]
 WantedBy=multi-user.target
