@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/MitchellKopczyk/BedrockServerManager/main/minecraft.png" width="200" height="200">
-
 # Bedrock Server Manager
 
 Bedrock Server Manager is a tool/set of scripts that lets you easily set up and manage your own dedicated Bedrock server.
