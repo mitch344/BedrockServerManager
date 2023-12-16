@@ -5,8 +5,7 @@ Bedrock Server Manager is a tool/set of scripts that lets you easily set up and 
 ![Wiki (Images & Tutorial)](https://github.com/mitch344/Minecraft-BedrockServerManager/wiki)
 
 ## Key Features
-Install the latest server software, statup the server on machine boot, check for updates periodically, and update if there are updates.
-
+Install the latest server software, statup the server on machine boot and automatic updates keeping you server up to date with clients.
 
 ## Dependencies
 
